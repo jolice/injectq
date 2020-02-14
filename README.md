@@ -6,6 +6,29 @@ components.
 [![Build Status](https://travis-ci.org/riguron/InjectQuery.svg?branch=master)](https://travis-ci.org/riguron/InjectQuery)
 [![codecov](https://codecov.io/gh/riguron/InjectQuery/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/InjectQuery)
 
+## Dependency
+
+This project is distributed via JitPack. Register a JitPack repository at your pom.xml:
+
+```xml
+
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+```
+
+And add the following dependency:
+
+```xml
+<dependency>
+	<groupId>com.github.riguron</groupId>
+	<artifactId>InjectQuery</artifactId>
+    <version>1.0</version>
+</dependency>
+```
 
 ## Injecting a query
 
