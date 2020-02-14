@@ -5,6 +5,7 @@ components.
 
 [![Build Status](https://travis-ci.org/riguron/InjectQuery.svg?branch=master)](https://travis-ci.org/riguron/InjectQuery)
 [![codecov](https://codecov.io/gh/riguron/InjectQuery/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/InjectQuery)
+[![](https://jitpack.io/v/riguron/InjectQuery.svg)](https://jitpack.io/#riguron/InjectQuery)
 
 ## Dependency
 
