@@ -18,6 +18,7 @@ public class ExtendedInjectionPoint implements BeanFactoryPostProcessor {
     @Override
     public void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) throws BeansException {
         DefaultListableBeanFactory defaultListableBeanFactory = (DefaultListableBeanFactory) beanFactory;
+        AutowireCandidateResolver currentResolver = defaultListableBeanFactory.getAutowireCandidateResolver();
         defaultListableBeanFactory.setAutowireCandidateResolver(new AutowireCandidateResolver() {
             @Override
             public Object getSuggestedValue(DependencyDescriptor descriptor) {
@@ -25,7 +26,7 @@ public class ExtendedInjectionPoint implements BeanFactoryPostProcessor {
                 if (query != null) {
                     return beanFactory.getBean(QueryResolver.class).resolve(query);
                 }
-                return null;
+                return currentResolver.getSuggestedValue(descriptor);
             }
         });
     }
