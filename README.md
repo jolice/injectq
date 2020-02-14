@@ -35,10 +35,10 @@ And add the following dependency:
 
 ### Enabling the extension
 
-First of all, enable the InjectQuery by placing the `@Import` annotation at some configuration or the main class of your application:
+First of all, enable the InjectQuery by placing the `@EnableInjectQuery` annotation at some configuration or the main class of your application:
 
 ```java
-@Import(InjectQueryConfiguration.class)
+@EnableInjectQuery
 ```
 
 This step is mandatory for importing the extension components into your application.
@@ -94,10 +94,8 @@ will lead to the bloat constructors.
 
 ## Configuration
 
-The extension may be configured via the `@EnableInjectQuery` placed at any point of the application. Currently supported configuration
+The extension may be configured via the `@EnableInjectQuery` annotation. Currently supported configuration
 options are listed below.
-
-Notice that there can be at most one `@EnableInjectQuery` annotation throughout the application, otherwise the exception is fired.
 
 #### Path
 
