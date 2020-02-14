@@ -6,7 +6,20 @@ components.
 [![Build Status](https://travis-ci.org/riguron/InjectQuery.svg?branch=master)](https://travis-ci.org/riguron/InjectQuery)
 [![codecov](https://codecov.io/gh/riguron/InjectQuery/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/InjectQuery)
 
+
 ## Injecting a query
+
+### Enabling the extension
+
+First of all, enable the InjectQuery by placing the `@Import` annotation at some configuration or the main class of your application:
+
+```java
+@Import(InjectQueryConfiguration.class)
+```
+
+This step is mandatory for importing the extension components into your application.
+
+### Basic injection
 
 The query injection is carried out via `@SqlQuery` annotation. 
 To inject a query, place `@SqlQuery` annotation at one of the supported injection points: field, method or constructor and 
