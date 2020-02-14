@@ -43,7 +43,7 @@ First of all, enable the InjectQuery by placing the `@EnableInjectQuery` annotat
 public class MyApplicationConfiguration {
 ```
 
-This step is mandatory for importing the extension components into your application.
+This step is *mandatory* for importing the extension components into your application.
 
 ### Basic injection
 
