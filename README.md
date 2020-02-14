@@ -39,6 +39,8 @@ First of all, enable the InjectQuery by placing the `@EnableInjectQuery` annotat
 
 ```java
 @EnableInjectQuery
+@Configuration
+public class MyApplicationConfiguration {
 ```
 
 This step is mandatory for importing the extension components into your application.
