@@ -3,9 +3,9 @@
 A Spring Boot extension allowing for injecting the SQL query strings from the files on the classpath into the Spring-managed 
 components.
 
-[![Build Status](https://travis-ci.org/riguron/InjectQuery.svg?branch=master)](https://travis-ci.org/riguron/InjectQuery)
-[![codecov](https://codecov.io/gh/riguron/InjectQuery/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/InjectQuery)
-[![](https://jitpack.io/v/riguron/InjectQuery.svg)](https://jitpack.io/#riguron/InjectQuery)
+[![Build Status](https://travis-ci.org/jolice/injectq.svg?branch=master)](https://travis-ci.org/jolice/injectq)
+[![codecov](https://codecov.io/gh/jolice/injectq/branch/master/graph/badge.svg)](https://codecov.io/gh/riguron/injectq)
+[![](https://jitpack.io/v/jolice/injectq.svg)](https://jitpack.io/#jolice/injectq)
 
 ## Dependency
 
