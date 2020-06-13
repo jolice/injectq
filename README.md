@@ -1,4 +1,4 @@
-# InjectQuery
+# InjectQ
 
 A Spring Boot extension allowing for injecting the SQL query strings from the files on the classpath into the Spring-managed 
 components.
@@ -25,8 +25,8 @@ And add the following dependency:
 
 ```xml
 <dependency>
-    <groupId>com.github.riguron</groupId>
-    <artifactId>InjectQuery</artifactId>
+    <groupId>com.github.jolice</groupId>
+    <artifactId>inejectq</artifactId>
     <version>1.0</version>
 </dependency>
 ```
