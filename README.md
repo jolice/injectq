@@ -26,7 +26,7 @@ And add the following dependency:
 ```xml
 <dependency>
     <groupId>com.github.jolice</groupId>
-    <artifactId>inejectq</artifactId>
+    <artifactId>injectq</artifactId>
     <version>1.0</version>
 </dependency>
 ```
